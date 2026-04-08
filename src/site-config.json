@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Eastern Excavating",
+    "phone": "+12272811732",
+    "category": "excavation contractor",
+    "city": "Baltimore",
+    "state": "MD"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Baltimore's Excavation Experts",
+      "heroSubline": "Eastern Excavating: Delivering dependable excavation services across Baltimore and surrounding counties. We tackle tough jobs others avoid.",
+      "aboutTitle": "Excavation Done Right, Right Here in Baltimore",
+      "aboutText": [
+        "Eastern Excavating was founded over a decade ago by Baltimore natives who understood the unique challenges of our local soil and landscape. We started small, focusing on residential projects in neighborhoods like Federal Hill and Fells Point. Our commitment to quality and reliability quickly earned us a reputation for excellence.",
+        "We approach every project with a focus on precision, safety, and efficiency. We use modern equipment and proven techniques to ensure the job is done right the first time. We believe in clear communication, transparent pricing, and exceeding client expectations.",
+        "We're proud to be a part of the Baltimore community. We actively support local initiatives and strive to minimize our environmental impact. We're not just building projects; we're building a better Baltimore."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of Baltimore's soil conditions and building codes."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "We show up on time and deliver on our promises, every time."
+        },
+        {
+          "title": "Safety First",
+          "description": "Prioritizing safety for our team and your property is paramount."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No hidden fees or surprises – just honest and upfront pricing."
+        }
+      ],
+      "ctaHeadline": "Ready to Break Ground?",
+      "ctaSubline": "Contact Eastern Excavating today for a free consultation and estimate. Let's discuss your project."
+    },
+    "services": [
+      {
+        "slug": "residential-excavation",
+        "name": "Residential Excavation",
+        "shortDescription": "Expert excavation services for homeowners in Baltimore and surrounding areas.",
+        "description": "Baltimore's unique housing stock, from historic rowhouses to modern waterfront developments, demands specialized excavation expertise. We provide comprehensive residential excavation services, including foundation excavation, basement waterproofing preparation, and land clearing for home additions and renovations. Our team understands the challenges posed by Baltimore's clay soil and fluctuating water table, ensuring proper drainage and structural stability. Whether you're building a new home in Canton or adding a deck in Hampden, we have the experience and equipment to handle any residential excavation project. We also specialize in navigating the permitting process and working with local inspectors to ensure compliance with all regulations. We take extra care to minimize disruption to your property and neighbors, leaving your site clean and ready for the next phase of construction.",
+        "process": [
+          "Step 1: Site Assessment and Planning",
+          "Step 2: Permitting and Utility Location",
+          "Step 3: Excavation and Grading",
+          "Step 4: Site Cleanup and Restoration"
+        ],
+        "benefits": [
+          "Solid Foundation for Your Home",
+          "Improved Drainage and Waterproofing",
+          "Increased Property Value",
+          "Peace of Mind Knowing the Job Is Done Right"
+        ],
+        "faq": [
+          {
+            "question": "How long does residential excavation typically take?",
+            "answer": "The duration depends on the size and complexity of the project, but most residential excavations are completed within a week."
+          },
+          {
+            "question": "Do I need a permit for excavation on my property?",
+            "answer": "Yes, in most cases, a permit is required for excavation work in Baltimore. We can assist you with the permitting process."
+          },
+          {
+            "question": "What precautions do you take to protect my property during excavation?",
+            "answer": "We use erosion control measures, protective barriers, and experienced operators to minimize disruption and prevent damage to your property."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-excavation",
+        "name": "Commercial Excavation",
+        "shortDescription": "Reliable excavation solutions for commercial construction projects in Baltimore.",
+        "description": "Eastern Excavating provides comprehensive commercial excavation services throughout the Baltimore metropolitan area. We handle projects of all sizes, from small retail developments to large-scale industrial complexes. Our experienced team is equipped to handle site clearing, grading, foundation excavation, utility trenching, and stormwater management systems. We understand the importance of meeting deadlines and staying within budget, and we work closely with contractors and developers to ensure project success. We have extensive experience working on projects in Baltimore's Inner Harbor, navigating the challenges of waterfront construction and environmental regulations. We also specialize in brownfield redevelopment, remediating contaminated sites and preparing them for new construction. Our commitment to safety and quality makes us a trusted partner for commercial construction projects in Baltimore.",
+        "process": [
+          "Step 1: Project Consultation and Planning",
+          "Step 2: Site Survey and Preparation",
+          "Step 3: Excavation and Grading",
+          "Step 4: Waste Removal and Site Restoration"
+        ],
+        "benefits": [
+          "Efficient Project Completion",
+          "Cost-Effective Solutions",
+          "Compliance with Regulations",
+          "Minimized Environmental Impact"
+        ],
+        "faq": [
+          {
+            "question": "What types of commercial projects do you handle?",
+            "answer": "We handle a wide range of commercial projects, including retail, office, industrial, and mixed-use developments."
+          },
+          {
+            "question": "Do you offer environmental remediation services?",
+            "answer": "Yes, we specialize in brownfield redevelopment and environmental remediation."
+          },
+          {
+            "question": "How do you ensure safety on commercial excavation sites?",
+            "answer": "We have a comprehensive safety program that includes regular training, site inspections, and strict adherence to OSHA regulations."
+          }
+        ]
+      },
+      {
+        "slug": "foundation-repair",
+        "name": "Foundation Repair",
+        "shortDescription": "Repairing and stabilizing foundations throughout the Baltimore region.",
+        "description": "Baltimore's older housing stock, particularly in neighborhoods like Federal Hill and Fells Point, often suffers from foundation problems due to age, soil conditions, and water damage. We provide expert foundation repair services to address cracks, settling, and other structural issues. Our team uses a variety of techniques, including underpinning, piering, and crack injection, to stabilize foundations and prevent further damage. We understand the importance of preserving the historic character of Baltimore's buildings, and we work carefully to minimize disruption during the repair process. We also offer basement waterproofing services to prevent future foundation problems. If you notice cracks in your foundation or suspect water damage, contact us for a thorough inspection and reliable repair solutions. We'll assess the damage and provide a detailed plan to restore your foundation's structural integrity.",
+        "process": [
+          "Step 1: Foundation Inspection and Assessment",
+          "Step 2: Repair Plan Development",
+          "Step 3: Foundation Stabilization",
+          "Step 4: Crack Repair and Waterproofing"
+        ],
+        "benefits": [
+          "Stabilized Foundation",
+          "Prevention of Further Damage",
+          "Increased Property Value",
+          "Peace of Mind"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my foundation needs repair?",
+            "answer": "Signs of foundation problems include cracks in walls, uneven floors, and doors or windows that stick."
+          },
+          {
+            "question": "What is underpinning?",
+            "answer": "Underpinning is a technique used to strengthen and stabilize foundations by extending them deeper into the ground."
+          },
+          {
+            "question": "How long does foundation repair take?",
+            "answer": "The duration depends on the extent of the damage, but most foundation repairs can be completed within a few days."
+          }
+        ]
+      },
+      {
+        "slug": "drainage-solutions",
+        "name": "Drainage Solutions",
+        "shortDescription": "Protecting Baltimore properties from water damage with effective drainage systems.",
+        "description": "Baltimore's climate, with its humid summers and occasional heavy rainfall, can lead to significant water damage issues. Eastern Excavating designs and installs effective drainage solutions to protect your property from flooding, erosion, and foundation problems. We offer a variety of drainage systems, including French drains, surface drains, and sump pumps, tailored to your specific needs. Our team understands the importance of proper grading and water management, ensuring that water flows away from your foundation and property. We also specialize in stormwater management systems for commercial properties, complying with local regulations and minimizing environmental impact. If you're experiencing water problems on your property, contact us for a comprehensive drainage assessment and reliable solutions. We'll help you protect your investment and prevent costly water damage repairs.",
+        "process": [
+          "Step 1: Drainage Assessment and Site Evaluation",
+          "Step 2: Drainage System Design",
+          "Step 3: System Installation",
+          "Step 4: Testing and Maintenance"
+        ],
+        "benefits": [
+          "Prevention of Water Damage",
+          "Reduced Erosion",
+          "Improved Property Value",
+          "Compliance with Regulations"
+        ],
+        "faq": [
+          {
+            "question": "What is a French drain?",
+            "answer": "A French drain is a trench filled with gravel or rock that redirects surface and groundwater away from an area."
+          },
+          {
+            "question": "Do I need a sump pump?",
+            "answer": "A sump pump is recommended if you have a basement that is prone to flooding or water seepage."
+          },
+          {
+            "question": "How often should I maintain my drainage system?",
+            "answer": "Regular maintenance, such as clearing debris and inspecting drains, is recommended at least once a year."
+          }
+        ]
+      },
+      {
+        "slug": "land-clearing",
+        "name": "Land Clearing",
+        "shortDescription": "Clearing land efficiently and responsibly throughout Baltimore.",
+        "description": "Eastern Excavating offers professional land clearing services for residential and commercial properties in Baltimore and surrounding areas. We have the equipment and expertise to clear trees, brush, and other vegetation efficiently and responsibly. Our team understands the importance of minimizing environmental impact, and we use sustainable land clearing practices whenever possible. We offer tree removal, brush removal, stump grinding, and debris hauling services. We also specialize in preparing land for construction, ensuring a level and stable surface for building. Whether you're developing a new property or clearing land for a home addition, we can handle all your land clearing needs. We comply with all local regulations and obtain necessary permits before starting any land clearing project. We're committed to providing safe, efficient, and environmentally responsible land clearing services.",
+        "process": [
+          "Step 1: Site Assessment and Planning",
+          "Step 2: Permitting and Environmental Review",
+          "Step 3: Tree and Brush Removal",
+          "Step 4: Debris Hauling and Site Cleanup"
+        ],
+        "benefits": [
+          "Prepared Land for Construction",
+          "Increased Property Value",
+          "Improved Site Access",
+          "Reduced Fire Hazard"
+        ],
+        "faq": [
+          {
+            "question": "Do I need a permit to clear land on my property?",
+            "answer": "Yes, in most cases, a permit is required for land clearing work in Baltimore. We can assist you with the permitting process."
+          },
+          {
+            "question": "What do you do with the debris from land clearing?",
+            "answer": "We haul away debris to approved disposal sites or recycle materials whenever possible."
+          },
+          {
+            "question": "How do you protect the environment during land clearing?",
+            "answer": "We use erosion control measures, protect sensitive areas, and comply with all environmental regulations."
+          }
+        ]
+      },
+      {
+        "slug": "utility-trenching",
+        "name": "Utility Trenching",
+        "shortDescription": "Safe and precise utility trenching services for Baltimore businesses and homes.",
+        "description": "Eastern Excavating provides safe and precise utility trenching services for residential and commercial properties throughout Baltimore. We have the experience and equipment to dig trenches for water lines, sewer lines, gas lines, and electrical conduits. Our team understands the importance of accurate trenching to prevent damage to existing utilities and ensure proper installation of new lines. We use advanced locating equipment to identify underground utilities before digging, minimizing the risk of accidents. We comply with all local regulations and safety standards. We also offer backfilling and compaction services to restore the trench area to its original condition. Whether you're installing new utilities or repairing existing lines, we can handle all your utility trenching needs. We prioritize safety and efficiency on every project, ensuring minimal disruption to your property and neighbors.",
+        "process": [
+          "Step 1: Utility Location and Marking",
+          "Step 2: Trench Excavation",
+          "Step 3: Utility Installation",
+          "Step 4: Backfilling and Compaction"
+        ],
+        "benefits": [
+          "Safe and Precise Trenching",
+          "Prevention of Utility Damage",
+          "Compliance with Regulations",
+          "Minimal Disruption"
+        ],
+        "faq": [
+          {
+            "question": "How deep do you dig utility trenches?",
+            "answer": "The depth of the trench depends on the type of utility being installed and local regulations."
+          },
+          {
+            "question": "How do you locate underground utilities?",
+            "answer": "We use advanced locating equipment and contact Miss Utility before digging to identify underground utilities."
+          },
+          {
+            "question": "What safety precautions do you take during utility trenching?",
+            "answer": "We use shoring and sloping techniques to prevent trench collapse and ensure the safety of our workers."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Columbia",
+        "slug": "columbia-md",
+        "state": "MD",
+        "content": "Eastern Excavating is proud to offer comprehensive excavation services to the residents and businesses of Columbia, Maryland. As a planned community established in the 1960s and 1970s, Columbia features a unique landscape of residential neighborhoods, commercial centers, and abundant green spaces. We understand the specific needs of homeowners in Columbia, many of whom reside in homes built during the community's early years. Our team has extensive experience working with the soil conditions and infrastructure common to this area. \n\nWe offer a wide range of excavation services in Columbia, including site preparation for new construction, foundation excavation, drainage solutions, and utility trenching. We are committed to providing reliable, efficient, and environmentally responsible excavation services to help you enhance your property and protect your investment. We also understand the climate in Columbia, with its hot, humid summers, and how that affects excavation projects.",
+        "localContext": "Columbia's planned community design and mature landscaping require careful and precise excavation techniques. We are familiar with the specific challenges and opportunities presented by properties in Columbia.",
+        "nearbyAreas": [
+          "Ellicott City",
+          "Clarksville",
+          "Jessup"
+        ]
+      },
+      {
+        "city": "Bethesda",
+        "slug": "bethesda-md",
+        "state": "MD",
+        "content": "Eastern Excavating is dedicated to providing top-quality excavation services to the discerning residents of Bethesda, Maryland. Known for its upscale neighborhoods and proximity to Washington, D.C., Bethesda boasts a diverse range of homes, many dating back to the 1930s-1960s. We appreciate the unique character of Bethesda's properties and are committed to preserving their aesthetic appeal while delivering essential excavation solutions.\n\nOur services in Bethesda include foundation repair, basement waterproofing, retaining wall construction, and landscape excavation. We utilize advanced equipment and techniques to minimize disruption and ensure the highest standards of workmanship. We also understand the climate in Bethesda, with its hot, humid summers, and how that affects excavation projects.",
+        "localContext": "Bethesda's established neighborhoods and mature trees require a delicate approach to excavation. We are experienced in navigating the challenges of working in close proximity to existing structures and landscaping.",
+        "nearbyAreas": [
+          "Chevy Chase",
+          "Potomac",
+          "Kensington"
+        ]
+      },
+      {
+        "city": "Rockville",
+        "slug": "rockville-md",
+        "state": "MD",
+        "content": "Eastern Excavating is pleased to serve the diverse community of Rockville, Maryland, with our comprehensive excavation services. Rockville features a mix of residential, commercial, and industrial properties, with many homes built during the 1950s-1970s. We are familiar with the various soil types and construction styles prevalent in Rockville and are equipped to handle any excavation challenge.\n\nOur services in Rockville include site grading, drainage improvements, utility installation, and demolition. We are committed to providing reliable, cost-effective, and environmentally responsible excavation solutions to meet the needs of our residential and commercial clients. We also understand the climate in Rockville, with its hot, humid summers, and how that affects excavation projects.",
+        "localContext": "Rockville's diverse housing stock and varying terrain require a flexible and adaptable approach to excavation. We are experienced in working with a wide range of property types and soil conditions in Rockville.",
+        "nearbyAreas": [
+          "Gaithersburg",
+          "Germantown",
+          "North Bethesda"
+        ]
+      },
+      {
+        "city": "Annapolis",
+        "slug": "annapolis-md",
+        "state": "MD",
+        "content": "Eastern Excavating is honored to provide excavation services to the historic city of Annapolis, Maryland. As the state capital and home to the United States Naval Academy, Annapolis boasts a rich history and a unique architectural heritage. We are particularly sensitive to the needs of homeowners in the historic downtown area, where many properties feature Colonial and Federal-style homes.\n\nOur services in Annapolis include foundation repair, drainage solutions, hardscaping, and utility upgrades. We are committed to preserving the historic character of Annapolis while delivering essential excavation solutions with minimal disruption. We also understand the climate in Annapolis, with its hot, humid summers, and how that affects excavation projects.",
+        "localContext": "Annapolis' historic district and waterfront location present unique challenges for excavation. We are experienced in working with older structures and sensitive environmental areas.",
+        "nearbyAreas": [
+          "Severna Park",
+          "Arnold",
+          "Edgewater"
+        ]
+      },
+      {
+        "city": "Ellicott City",
+        "slug": "ellicott-city-md",
+        "state": "MD",
+        "content": "Eastern Excavating provides excavation services to Ellicott City, MD. From historic Main Street to the surrounding residential areas, we are equipped to handle any excavation project. We have experience working with the unique terrain and challenges that Ellicott City presents, and we take pride in delivering quality workmanship and customer satisfaction. Our services include foundation work, drainage solutions, and site preparation.",
+        "localContext": "Ellicott City's historic district and hilly terrain require specialized excavation techniques to preserve the town's charm and prevent erosion.",
+        "nearbyAreas": [
+          "Columbia",
+          "Catonsville",
+          "Woodlawn"
+        ]
+      },
+      {
+        "city": "Towson",
+        "slug": "towson-md",
+        "state": "MD",
+        "content": "Eastern Excavating is your local excavation expert in Towson, MD. Serving both residential and commercial clients, we offer a wide range of excavation services, including site preparation, foundation digging, and utility trenching. We are familiar with the local building codes and regulations, ensuring that your project is completed safely and efficiently. We are committed to providing reliable and affordable excavation solutions tailored to your specific needs.",
+        "localContext": "Towson's mix of older homes and new developments requires a versatile approach to excavation, considering both existing infrastructure and modern construction standards.",
+        "nearbyAreas": [
+          "Parkville",
+          "Lutherville-Timonium",
+          "Cockeysville"
+        ]
+      },
+      {
+        "city": "Pikesville",
+        "slug": "pikesville-md",
+        "state": "MD",
+        "content": "Eastern Excavating proudly serves the community of Pikesville, MD, offering a full suite of excavation services. Whether you're planning a home renovation, a new construction project, or need assistance with drainage issues, our team is here to help. We understand the unique needs of Pikesville residents and businesses and strive to deliver exceptional results every time. From small residential projects to large commercial undertakings, we have the expertise and equipment to get the job done right.",
+        "localContext": "Pikesville's established neighborhoods and varying lot sizes require careful planning and execution of excavation projects to minimize disruption and ensure safety.",
+        "nearbyAreas": [
+          "Owings Mills",
+          "Reisterstown",
+          "Randallstown"
+        ]
+      },
+      {
+        "city": "Catonsville",
+        "slug": "catonsville-md",
+        "state": "MD",
+        "content": "Eastern Excavating is dedicated to providing top-notch excavation services to the residents and businesses of Catonsville, MD. Known for its historic charm and vibrant community, Catonsville presents a unique blend of residential and commercial properties. We have extensive experience working in Catonsville and understand the specific challenges and opportunities that the area presents. Our services include foundation repair, drainage solutions, and site preparation.",
+        "localContext": "Catonsville's historic infrastructure and proximity to the Patapsco Valley State Park require a sensitive approach to excavation, balancing preservation with modern needs.",
+        "nearbyAreas": [
+          "Ellicott City",
+          "Arbutus",
+          "Woodlawn"
+        ]
+      },
+      {
+        "city": "Owings Mills",
+        "slug": "owings-mills-md",
+        "state": "MD",
+        "content": "Eastern Excavating is pleased to offer our professional excavation services in Owings Mills, MD. With a mix of residential communities and commercial developments, Owings Mills requires a versatile excavation company. We handle everything from site preparation for new construction to drainage solutions for existing properties. Our commitment to quality workmanship and customer satisfaction makes us the preferred choice for excavation projects in Owings Mills.",
+        "localContext": "Owings Mills' rapid growth and diverse landscape require excavation services that can adapt to changing needs and environmental considerations.",
+        "nearbyAreas": [
+          "Reisterstown",
+          "Pikesville",
+          "Randallstown"
+        ]
+      },
+      {
+        "city": "Parkville",
+        "slug": "parkville-md",
+        "state": "MD",
+        "content": "Eastern Excavating provides reliable excavation services to the community of Parkville, MD. We are experienced in serving the residential and commercial needs of Parkville, offering a wide range of services including foundation work, utility trenching, and site grading. Our team is dedicated to providing efficient and cost-effective solutions while maintaining the highest standards of safety and quality. We are proud to be a trusted partner for excavation projects in Parkville.",
+        "localContext": "Parkville's densely populated neighborhoods require careful coordination and minimal disruption during excavation projects to ensure the safety and convenience of residents.",
+        "nearbyAreas": [
+          "Towson",
+          "Overlea",
+          "Carney"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Residential Excavation",
+        "text": "Eastern Excavating did an amazing job excavating for our new patio in Canton. They were prompt, professional, and cleaned up everything afterward. Our backyard looks fantastic!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Foundation Repair",
+        "text": "We had some serious cracks in our Federal Hill rowhouse foundation. Eastern Excavating came out and provided a thorough assessment and a fair price. The repair work was completed quickly and efficiently.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Drainage Solutions",
+        "text": "Our backyard in Hampden was always flooding after heavy rains. Eastern Excavating installed a French drain system, and now the water drains perfectly. Highly recommend!",
+        "date": "2024-11-01"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Commercial Excavation",
+        "text": "Eastern Excavating handled the excavation for our new retail space in the Inner Harbor. They were professional, on time, and within budget. Excellent work!",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "Emily S.",
+        "rating": 4,
+        "service": "Land Clearing",
+        "text": "Needed some land cleared for a new garden bed. The team was quick and efficient, and they left the area clean and ready for planting.",
+        "date": "2024-07-05"
+      },
+      {
+        "name": "Robert P.",
+        "rating": 5,
+        "service": "Utility Trenching",
+        "text": "Eastern Excavating was the only company that could get to my utility trenching project within my timeframe. They worked quickly and the service was great.",
+        "date": "2024-06-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Eastern Excavating | Baltimore Excavation",
+        "description": "Baltimore's trusted excavation contractor. Residential, commercial, foundation repair, and drainage solutions."
+      },
+      "about": {
+        "title": "About Eastern Excavating | Baltimore, MD",
+        "description": "Learn about Eastern Excavating: Baltimore's premier excavation contractor. Local experts with years of experience."
+      },
+      "services": {
+        "title": "Excavation Services | Baltimore, MD",
+        "description": "Comprehensive excavation services in Baltimore. Foundation repair, drainage, land clearing, utility trenching."
+      },
+      "contact": {
+        "title": "Contact Eastern Excavating | Baltimore, MD",
+        "description": "Contact Eastern Excavating for your next excavation project. Get a free estimate today!"
+      },
+      "reviews": {
+        "title": "Eastern Excavating Reviews | Baltimore, MD",
+        "description": "Read reviews of Eastern Excavating, Baltimore's leading excavation contractor. See what our clients are saying."
+      },
+      "service-areas": {
+        "title": "Eastern Excavating Service Areas",
+        "description": "Eastern Excavating provides service throughout Baltimore and surrounding areas."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-excavation": "/images/service-residential-excavation.webp",
+      "commercial-excavation": "/images/service-commercial-excavation.webp",
+      "foundation-repair": "/images/service-foundation-repair.webp",
+      "drainage-solutions": "/images/service-drainage-solutions.webp",
+      "land-clearing": "/images/service-land-clearing.webp",
+      "utility-trenching": "/images/service-utility-trenching.webp"
+    },
+    "servicesResponsive": {
+      "residential-excavation": {
+        "src": "/images/service-residential-excavation.webp",
+        "srcset": "/images/service-residential-excavation-400w.webp 400w, /images/service-residential-excavation-800w.webp 800w, /images/service-residential-excavation-1200w.webp 1200w, /images/service-residential-excavation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-excavation": {
+        "src": "/images/service-commercial-excavation.webp",
+        "srcset": "/images/service-commercial-excavation-400w.webp 400w, /images/service-commercial-excavation-800w.webp 800w, /images/service-commercial-excavation-1200w.webp 1200w, /images/service-commercial-excavation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "foundation-repair": {
+        "src": "/images/service-foundation-repair.webp",
+        "srcset": "/images/service-foundation-repair-400w.webp 400w, /images/service-foundation-repair-800w.webp 800w, /images/service-foundation-repair-1200w.webp 1200w, /images/service-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drainage-solutions": {
+        "src": "/images/service-drainage-solutions.webp",
+        "srcset": "/images/service-drainage-solutions-400w.webp 400w, /images/service-drainage-solutions-800w.webp 800w, /images/service-drainage-solutions-1200w.webp 1200w, /images/service-drainage-solutions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "land-clearing": {
+        "src": "/images/service-land-clearing.webp",
+        "srcset": "/images/service-land-clearing-400w.webp 400w, /images/service-land-clearing-800w.webp 800w, /images/service-land-clearing-1200w.webp 1200w, /images/service-land-clearing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "utility-trenching": {
+        "src": "/images/service-utility-trenching.webp",
+        "srcset": "/images/service-utility-trenching-400w.webp 400w, /images/service-utility-trenching-800w.webp 800w, /images/service-utility-trenching-1200w.webp 1200w, /images/service-utility-trenching.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
